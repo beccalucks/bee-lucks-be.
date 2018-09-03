@@ -1,0 +1,86 @@
+html, body * {
+  box-sizing: border-box;
+  margin: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 42;
+  line-height: 4.2vh;
+  background-color: #009999;
+}
+
+h1 {
+font-size: 88px;
+line-height: 4vh;
+font-style: oblique;
+font-family: "Hoefler Text", "Baskerville Old Face", "Times New Roman", serif;
+}
+
+h2 {
+  text-align: left;
+  position: fixed;
+  font-size: 14px;
+  line-height: 4.2vh;
+}
+
+h3 {
+
+font-size: 25px;
+line-height: 4.2vh;
+font-style: oblique;
+font-family: "Hoefler Text", "Baskerville Old Face", "Times New Roman", serif;
+}
+
+#rightside {
+  float: right;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 39%;
+  margin-top: 0;
+}
+#fblink, img {
+  margin: none;
+  padding: none;
+}
+#pubname {
+  margin-left: 6%;
+  margin-top: 6%;
+}
+a, ul{
+     list-style-type: none;
+     text-decoration: overline;
+  }
+  
+.navi {
+  width: 42%;
+  height: 78%;
+  position: fixed;
+  top: 42vh;
+  right: 0;
+  bottom: 2;
+  left: 0;
+  z-index: 0;
+
+}
+ul.navi {
+  list-style: none;
+}
+ul.navi li a {
+  text-decoration: none;
+  color: black;
+  padding: 1.4em;
+  font-size: 1em;
+}
+@media only screen and (max-width:500px)
+{ /*for mobile devices*/
+.flex-wrapper
+    {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+}
+}

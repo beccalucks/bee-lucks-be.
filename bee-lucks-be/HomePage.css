@@ -1,0 +1,146 @@
+html, body * {
+  box-sizing: border-box;
+  margin: 2.42%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 42;
+  line-height: 5vh;
+  background-color: lightblue; #009999;
+
+}
+
+h1, h3 {
+font-size: 84px;
+padding: 4vh;
+margin:0%;
+border-top-width: thick;
+border-bottom-width: thick;
+border-left-color: lightblue;
+border-right-color: lightblue;
+border-style: double;
+line-height: 13vh;
+font-style: oblique;
+font-family: "Hoefler Text", "Baskerville Old Face", "Times New Roman", serif;
+}
+
+h2 {
+  text-align: left;
+  position: fixed;
+  font-size: 14px;
+  line-height: 4.2vh;
+}
+
+h3 {
+font-size: 25px;
+border-top-color: lightblue;
+line-height: 4.2vh;
+font-style: oblique;
+font-family: "Hoefler Text", "Baskerville Old Face", "Times New Roman", serif;
+}
+#byline {
+  border-width: thin;
+  font-size: 1em;
+  padding: 0vh;
+}
+
+#photog {
+  font-size: 2em;
+}
+.article {
+  float: left;
+  flex-wrap: wrap-reverse;
+  flex-direction: column-reverse;
+}
+#rightside {
+  float: right;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 42%;
+  margin-top: 0vh;
+}
+#fblink, img {
+  margin: 0vh;
+  padding: 0vh;
+}
+#pubname {
+  margin-left: 6%;
+  margin-top: 2%;
+}
+#mplink {
+  margin-bottom: 5vh;
+  border-left: double;
+  border-width: thick;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+#thatsinteresting {
+  text-align: center;
+  padding: 0vh;
+  padding-left: 33.3333%;
+  margin: 0vh;
+  border-bottom-color: lightblue;
+}
+a, ul{
+     list-style-type: none;
+     text-decoration: overline;
+  }
+
+.navi {
+  width: 37%;
+  height: 78%;
+  position: fixed;
+  top: 42vh;
+  right: 0;
+  bottom: 2;
+  left: 0;
+  z-index: 0;
+}
+
+ul.navi {
+  list-style: none;
+}
+
+ul.navi li a {
+  text-decoration: none;
+  text-emphasis-color: teal;
+  padding: 1.4em;
+  font-size: 1em;
+}
+.action {
+  float: left;
+}
+#mapwrite {
+  text-rendering: geometricPrecision;
+  text-overflow: ellipsis;
+  text-align: center;
+  border-bottom-style: double;
+  border-width: thick;
+  text-transform: full-width;
+  line-height: 4.2vh;
+  padding-bottom: 4.2em;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+#tothleft {
+
+  float: left;
+
+  font-size: 1em;
+}
+@media only screen and (max-width:500px)
+{ /*for mobile devices*/
+.flex-wrapper
+    {
+      flex-direction: row;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+}
+}
